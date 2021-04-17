@@ -1,22 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Video from './Video';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+
+        <h1>Creating the new TikTok clone</h1>
+
+        <Video />
+        {/* app container */}
+          {/* video */}
+          {/* video */}
+          {/* video */}
+          {/* video */}
+          {/* video */}
+
       </header>
     </div>
   );
