@@ -3,13 +3,15 @@ import Video from './Video';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="app">
 
-
-        <h1>Creating the new TikTok clone</h1>
-
-        <Video />
+        <div className="app__videos">
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+        </div>
         {/* app container */}
           {/* video */}
           {/* video */}
@@ -17,7 +19,6 @@ function App() {
           {/* video */}
           {/* video */}
 
-      </header>
     </div>
   );
 }
