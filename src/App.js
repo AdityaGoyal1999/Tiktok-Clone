@@ -6,12 +6,22 @@ function App() {
     <div className="app">
 
         <div className="app__videos">
-          <Video />
+          <Video 
+            channel="iamadityagoyal"
+            description="This works"
+            song="Peaches"
+            likes="1001"
+            shares="100"
+            messages="100"
+          />
           <Video />
           <Video />
           <Video />
           <Video />
         </div>
+
+        
+
         {/* app container */}
           {/* video */}
           {/* video */}
